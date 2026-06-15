@@ -149,13 +149,7 @@ var Axes = _dereq_('../geometry/Axes');
         return Body._nextCategory;
     };
 
-    /**
-     * Initialises body properties.
-     * @method _initProperties
-     * @private
-     * @param {body} body
-     * @param {} [options]
-     */
+    
     var _initProperties = function(body, options) {
         options = options || {};
 
